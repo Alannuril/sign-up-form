@@ -1,0 +1,50 @@
+body {
+    background-color: #5f596f;
+}
+
+main {
+    display: flex;
+}
+
+.bg-image {
+    background-image: url(assets/AURORA.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 700px;
+    height: 730px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-family: 'Changa', sans-serif;
+}
+
+.bg-image img {
+    width: 300px;
+}
+
+.bg-image .heading button {
+    border-radius: 50px;
+    width: 200px;
+    padding: 8px;
+    background-color: rgba(252, 252, 252, 0.3);
+    color: rgb(255, 255, 255);
+    border-width: 0;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.card-form {
+    padding: 10px;
+}
