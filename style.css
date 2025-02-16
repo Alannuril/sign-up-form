@@ -98,6 +98,8 @@ a:hover {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
 }
 
 .email {
@@ -109,10 +111,40 @@ a:hover {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+    background-color: transparent;
+    color: white;
 }
 
 .agreement {
     color: rgba(255, 255, 255, 0.866);
+    padding-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.agreement input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.btn button {
+    border-radius: 5px;
+    padding: 15px 20px;
+    width: 450px;
+    background-color: rgb(109,84,181);
+    border-width: 0;
+    color: white;
+}
+
+.btn button:hover {
+    background-color: rgb(109,84,181, 0.8);
 }
 
 .social-login {
@@ -120,7 +152,7 @@ a:hover {
     text-align: center;
     justify-content: center;
     margin-top: 20px;
-    border-color: rgba(255, 255, 255, 0.76);
+    border-color: rgba(255, 255, 255, 0.455);
     border-bottom: transparent;
     border-right: transparent;
     border-left: transparent;
