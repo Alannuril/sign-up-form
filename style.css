@@ -6,6 +6,7 @@ main {
     display: flex;
     padding: 8px;
     gap: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .bg-image {
@@ -18,7 +19,6 @@ main {
     flex-direction: column;
     justify-content: space-between;
     color: rgba(255, 255, 255, 0.682);
-    font-family: 'Changa', sans-serif;
     opacity: 0.8;
 }
 
@@ -52,6 +52,10 @@ main {
     padding-bottom: 10px;
 }
 
+.img-footer h1 {
+    font-weight: 500;
+}
+
 .card-form {
     padding: 50px;
     color: white;
@@ -59,21 +63,31 @@ main {
 
 .card-form p {
     color: rgba(255, 255, 255, 0.866);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.joined a {
+    color: rgba(128, 128, 253, 0.685);
+}
+
+.joined a:hover {
+    color: rgba(128, 128, 253, 1);
 }
 
 .form-input {
     display: flex;
     flex-direction: column;
-    gap: 20px; /* Jarak antara bagian nama dan email */
+    gap: 20px; 
 }
 
 .name {
     display: flex;
-    gap: 10px; /* Jarak antara first name dan last name */
+    gap: 10px; 
 }
 
 .name input {
-    flex: 1; /* Membagi lebar sama rata antara first name dan last name */
+    flex: 1;
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
