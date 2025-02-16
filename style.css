@@ -13,8 +13,8 @@ main {
     background-image: url(assets/AURORA.jpg);
     background-size: cover;
     border-radius: 10px;
-    width: 600px;
-    height: 710px;
+    width: 650px;
+    height: 720px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -33,6 +33,7 @@ main {
     background-color: rgba(252, 252, 252, 0.3);
     color: rgb(255, 255, 255);
     border-width: 0;
+    transition: 0.3s;
 }
 
 .bg-image .heading button:hover {
@@ -59,6 +60,12 @@ main {
 .card-form {
     padding: 50px;
     color: white;
+    width: 450px;
+}
+
+.card-form h1 {
+    font-weight: 600;
+    font-size: 42px;
 }
 
 .card-form p {
@@ -67,11 +74,11 @@ main {
     padding-top: 20px;
 }
 
-.joined a {
+a {
     color: rgba(128, 128, 253, 0.685);
 }
 
-.joined a:hover {
+a:hover {
     color: rgba(128, 128, 253, 1);
 }
 
@@ -102,4 +109,59 @@ main {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+
+.agreement {
+    color: rgba(255, 255, 255, 0.866);
+}
+
+.social-login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-color: rgba(255, 255, 255, 0.76);
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+}
+
+.social-login legend {
+    padding: 10px;
+}
+
+.social-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.google-btn:hover {
+    background-color: #db45379f;
+}
+
+.apple-btn {
+    background-color: black;
+    color: white;
+}
+
+.apple-btn:hover {
+    background-color: rgba(0, 0, 0, 0.586);
+}
+
+.social-btn img {
+    width: 20px;
+    margin-right: 10px;
+    background-color: transparent;
 }

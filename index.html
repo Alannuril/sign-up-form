@@ -24,48 +24,61 @@
                 </h1>
             </div>
         </div>
+       
+        <div class="card-form">
+            <h1>
+                Create an account
+            </h1>
 
-        <div>
-            <div class="card-form">
-                <h1>
-                    Create an Account
-                </h1>
+            <p class="joined">
+                Already have an account? <a href="">log in</a>
+            </p>
 
-                <p class="joined">
-                    Already have an account? <a href="">log in</a>
-                </p>
+            <form action="">
+                <h3>
+                    Let's Join Us
+                </h3>
 
-                <form action="">
-                    <h3>
-                        Let's Join Us
-                    </h3>
-
-                    <div class="form-input">
-                        <div class="name">
-                            <input type="text" id="fname" placeholder="First Name">
-                            <input type="text" id="lname" placeholder="Last Name">    
-                        </div>
-
-                        <div class="email">
-                            <input type="email" id="eamil" placeholder="Email">
-                            <br>
-                            <input type="password" id="password" placeholder="Enter Your Password">
-    
-                        </div>    
+                <div class="form-input">
+                    <div class="name">
+                        <input type="text" id="fname" placeholder="First Name">
+                        <input type="text" id="lname" placeholder="Last Name">    
                     </div>
-                </form>
 
-                
+                    <div class="email">
+                        <input type="email" id="eamil" placeholder="Email">
+                        <br>
+                        <input type="password" id="password" placeholder="Enter Your Password">
+                    </div>
 
-                <div class="btn">
-                    <button></button>
+                    <div class="agreement">
+                        <input type="checkbox" id="agree" name="agree">
+                        <label for="agree">I agree to the <a href="">Terms & Conditions</a></label>
+                    </div>
                 </div>
+            </form>
 
-                <div class="foot">
+            <div class="btn">
+                <button>Create account</button>
+            </div>
 
-                </div>
+            <fieldset class="social-login">
+                <legend>Or register with</legend>
+
+                <button class="social-btn google-btn">
+                    <img src="assets/google.png" alt="Google"> Google
+                </button>
+
+                <button class="social-btn apple-btn">
+                    <img src="assets/apple.png" alt="Apple"> Apple
+                </button>
+            </fieldset>
+
+            <div class="foot">
+
             </div>
         </div>
+
     </main>
 
     <script src="index.js"></script>
