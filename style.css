@@ -58,7 +58,7 @@ main {
 }
 
 .card-form {
-    padding: 50px;
+    padding: 20px 45px;
     color: white;
     width: 450px;
 }
@@ -66,12 +66,12 @@ main {
 .card-form h1 {
     font-weight: 600;
     font-size: 42px;
+    margin-top: 30px;
 }
 
 .card-form p {
     color: rgba(255, 255, 255, 0.866);
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 a {
@@ -100,6 +100,14 @@ a:hover {
     border: 1px solid #ccc;
     background-color: transparent;
     color: white;
+}
+
+.name input:invalid {
+    border: 1px solid red;
+}
+
+.email input:invalid {
+    border: 1px solid red;
 }
 
 .email {
@@ -175,7 +183,7 @@ a:hover {
 }
 
 .google-btn {
-    background-color: #db4437;
+    background-color: #db453786;
     color: white;
 }
 
@@ -184,7 +192,7 @@ a:hover {
 }
 
 .apple-btn {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.387);
     color: white;
 }
 
